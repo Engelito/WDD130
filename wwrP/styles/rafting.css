@@ -5,17 +5,14 @@ a{
     display: block;
     width: 100%;
     height: auto;
-}
-.image hero{
-    position: absolute;
-
+    position: relative;
 }
 h1{
     position: absolute;
 }
 
 article img{
-    position: right;
+    position: relative;
 }
 section img{
     vertical-align:bottom;
