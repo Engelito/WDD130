@@ -20,6 +20,7 @@ section img{
 .sociallinks img{
     height: 100px;
     width: 100px;
+    float: right;
 }
 h1, h2, h3, h4 {
     font-family: "Hind Mysuru";
