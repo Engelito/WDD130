@@ -24,3 +24,10 @@ section img{
     height: 100px;
     width: 100px;
 }
+h1, h2, h3, h4 {
+    font-family: Hind Mysuru;
+}
+p {
+    font-family: hind Mysuru;
+    font-weight: 300;
+}
