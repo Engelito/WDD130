@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.image hero{
+    position: absolute;
+
+}
+h1{
+    position: absolute;
+}
+
+article img{
+    position: right;
+}
+section img{
+    vertical-align:bottom;
+}
+.sociallinks img{
+    height: 100px;
+    width: 100px;
+}
