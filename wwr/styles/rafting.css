@@ -1,6 +1,3 @@
-a{
-    text-decoration: none;
-}
  .image-hero{
     display: block;
     width: 100%;
@@ -12,39 +9,35 @@ a{
     width: 100%;
     height: auto;
 }
-.textImage img{
-   
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  height: 20%;
-  width: 20%;
-}
 .image-hero h1{
  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #FEFAE0;
   background-color: #1a181780;
   width: 100%;
 }
-.image-hero p{
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  
-  color: white;
-  background-color: #c97c4980;
-  width: 50%;
+.hero-container{
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	align-items: center;
+	max-width: 1000px;
+    background-color: #DDA15E90;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+.hero-item{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    margin: 10px;
 }
 h1{
-    position: relative;
-}
-
-article img{
     position: relative;
 }
 section img{
@@ -62,29 +55,102 @@ h1, h2, h3, h4 {
 p {
     font-family: "Hind Mysuru";
     font-weight: 300;
+    color:#FEFAE0;
 }
 body {
     background-color:#606C38;
   }
-.grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #DDA15E;
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    width: 500px; /*moves nav left and right*/
-    margin: 10px; /*moves height of nav*/
-    line-height: 75px; /*also move height of nav*/
-    font-size: 50px;
-    font-family: "Hind Mysuru";
-}
 .logo-box img{
     width: 100px;
     height: 100px;
+    margin: 10px;
+    
 }
 body, html {
     height: 100%;
     margin: 0;
+    width: 100%;
   }
+.grid-container {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 320px 1fr 1fr;
+	align-items: center;
+	max-width: 1000px;
+    background-color: #DDA15E;
+    
+}
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    
+    
+}
+.navigation li {
+	flex: 1 1 auto;
+    
+}
+.navigation a {
+	display: block;
+	color: #FEFAE0;
+	padding: 20px;
+	text-decoration: none;
+    font-family: "Hind Mysuru";
+    
+}
+.navigation a:hover {
+	color: #283618;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+}
+section{
+    background: #DDA15E;
+}
+.sect-container{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1000px;
+
+}
+.sect-item {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    margin: 10px;
+    
+    
+}
+.art-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+.art-item{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    margin: 10px;
+}
+article img{
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+article figcaption{
+    font-family: "Hind Mysuru";
+    font-weight: 300;
+    color: #FEFAE0;
+}
+footer{
+    text-align: center;
+}
