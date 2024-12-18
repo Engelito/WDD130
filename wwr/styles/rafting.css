@@ -128,7 +128,26 @@ section{
     
     
 }
-.art-container{
+.sect-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.sect-item2 {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    margin: 10px;
+    
+    
+}
+.sect-item2 img{
+    display: block;
+    height: 400px;
+    width: 250px;
+}
+.art-container2{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -153,4 +172,24 @@ article figcaption{
 }
 footer{
     text-align: center;
+}
+.button{
+    font-family: "Hind Mysuru";
+    font-weight: 300;
+    color:#FEFAE0;
+    background-color:#DDA15E;
+}
+h4{
+    text-align: center;
+}
+.wireframe a{
+    display: block;
+	color:#FEFAE0;
+	text-decoration: none;
+    font-family: "Hind Mysuru";
+}
+.wireframe a:hover {
+	color: #283618;
+	font-weight: 700;
+	text-decoration: underline;
 }
