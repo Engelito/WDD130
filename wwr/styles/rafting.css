@@ -1,4 +1,5 @@
- .image-hero{
+@import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap');
+.image-hero{
     display: block;
     width: 100%;
     height: auto;
