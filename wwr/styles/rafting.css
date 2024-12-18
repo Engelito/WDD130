@@ -146,12 +146,12 @@ section{
     height: 400px;
     width: 250px;
 }
-/*.art-container2{
+.art-container2{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    
-}*/
+}
 .art-item{
     display: flex;
 	flex-wrap: wrap;
