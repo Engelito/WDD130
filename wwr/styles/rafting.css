@@ -196,3 +196,59 @@ h4{
 	font-weight: 700;
 	text-decoration: none;
 }
+/*index page*/
+.index-section{
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	max-width: 1000px;
+}
+.index-sect{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+    margin: 10px;
+}
+/*trip page*/
+.trips-div h1{
+    text-align: center;
+}
+.trips-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+}
+.trips-item{
+    display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+.trips-item img{
+    display: block;
+    height: auto;
+    width: 250px;
+}
+/*table*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #FEFAE0;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    font-family: "Hind Mysuru";
+    font-weight:bold;
+    color:#FEFAE0;
+  }
+  td{
+    font-family: "Hind Mysuru";
+    font-weight: 300;
+    color:#FEFAE0;
+  }
+  
